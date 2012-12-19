@@ -14,8 +14,8 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>3.0.0.GA</sdk-version>
-    <id>com.dtnetsd.myAppName</id>
-    <name>myAppName</name>
+    <id>com.dtnetsd.BRMobApp</id>
+    <name>BRMobApp</name>
     <version>1.0</version>
     <publisher>dtnetsd</publisher>
     <url>http://www.dtnetsd.com</url>

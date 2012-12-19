@@ -1,8 +1,8 @@
-#appname:myAppName
+#appname:BRMobApp
 #publisher:dtnetsd
 #url:http://www.dtnetsd.com
 #image:appicon.png
-#appid:l phpstormcom.dtnetsd.myAppName
+#appid:com.dtnetsd.BRMobApp
 #desc:not specified
 #type:mobile
 #guid:34962c51-d480-4891-a99f-6c4e4254d526
