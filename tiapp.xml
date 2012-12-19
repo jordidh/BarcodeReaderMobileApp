@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">gllx3CkZbC1zo0moMAIltfMsrzVV0ooo</property>
+    <property name="acs-oauth-key-production" type="string">5Xl5QOhuueMZs6SNteJp2gnnrqBZk3R7</property>
+    <property name="acs-api-key-production" type="string">HSvcK6JnZkt2QFEphPTVLi6UhvCBwxFd</property>
+    <property name="acs-oauth-secret-development" type="string">XNAkDmiuxA4fde9bYXVnDmVy7eWaZedm</property>
+    <property name="acs-oauth-key-development" type="string">8AVskjAczN2fC6QkYmuYe5itJ6XNAWCV</property>
+    <property name="acs-api-key-development" type="string">ekUG2lFrp5kH9UoCUIqkRvgiZRdbECID</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>3.0.0.GA</sdk-version>
+    <id>com.dtnetsd.myAppName</id>
+    <name>myAppName</name>
+    <version>1.0</version>
+    <publisher>dtnetsd</publisher>
+    <url>http://www.dtnetsd.com</url>
+    <description>not specified</description>
+    <copyright>2012 by dtnetsd</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>34962c51-d480-4891-a99f-6c4e4254d526</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">com.mirasense.scanditsdk</module>
+        <module platform="iphone">com.mirasense.scanditsdk</module>
+        <module platform="android">ti.cloudpush</module>
+    </modules>
+</ti:app>
